@@ -1,0 +1,74 @@
+div{
+	padding: 5px;
+	border: 1px solid red;
+	margin: 10px;
+}
+.mein{
+	display: flex;
+}
+.wedsite_bar{
+	order: -1;
+	min-width: 170px;
+	max-width: 170px;
+}
+.news{
+	min-width: 270px;
+	max-width: 270px;
+}
+.campaign{
+	background-color: red;
+}
+.portners{
+	background-color: red;
+}
+.contacts{
+	background-color: red;
+}
+.video{
+	background-color: red;
+}
+/*button.yt-icon-buttjn:active{
+	vertical-align: middle;
+	color: #02w175;
+}*/
+.campaign:hover{
+	background-color: orange;
+
+}
+.campaign:active{
+	position: relative;
+	top: 3px;
+
+}	
+.portners:hover{
+	background-color: orange;
+}
+.portners:active {
+	position: relative;
+	top: 3px;
+} 
+.concts:hover{
+	background-color: orange;
+}
+.concts:active {
+	position: relative;
+	top: 3px;
+}
+.video:hover{
+	background-color: orange;
+}
+.video:active{
+	position: relative;
+	top: 3px;
+}
+.sections_ul{
+	padding-left: 0;
+}
+.wedsite_bar 
+.sections_ul {
+	list-style-type: none;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
